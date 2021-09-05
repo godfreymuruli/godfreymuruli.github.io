@@ -1,9 +1,69 @@
-# Tim Baker Development 
-![ReactJS Resume Website](readme.jpg?raw=true "ReactJS Resume Website")
-### <a href="http://timbakerdev.com/">Check It Out Here</a> 
-
+# Portfolio (Reactjs, JSON, EmailJS) 
 ## Description
-This is my personal resume website built with ReactJS. I am using my own React resume website template that can be found <a href="https://github.com/tbakerx/react-resume-template">HERE.</a>
+* This is the repository that holds the source code of [my portfolio](https://kimanicharles911.github.io/). It has my resume, links to other types of portfolios and my contact. It has been developed using Reactjs and [EmailJS](https://emailjs.com/).
 
-## I'm looking for work
-I am currently travelling Southeast Asia following my University studies but I will be actively looking for work when my trip is over. My location preference is Victoria, BC as my girlfriend will return to school there after our travels but I am open to remote work and can potentially make other arrangements if the right job comes along. 
+## Deployed at
+* [kimanicharles911.github.io](https://kimanicharles911.github.io/)
+* [desolate-hollows-00297.herokuapp.com](https://desolate-hollows-00297.herokuapp.com/)
+
+## Setup/Installation Requirements
+##### Install Dependencies
+
+```
+npm install
+```
+
+##### Run React Development Server
+
+```
+npm run start
+```
+
+##### To Build for Production
+
+```
+npm run build
+Know how to host at heroku.com - https://dev.to/destrodevshow/how-to-deploy-react-app-to-heroku-in-5-minutes-3dni
+
+heroku login
+git add . && git commit -m"your commit message" && git push heroku master
+```
+
+## How It Was Built
+##### Create React App
+```
+npx create-react-app 
+npm i emailjs-com --save
+```
+##### Dependencies
+* EmailJS
+* React Typewriter
+
+### src folder structure
+```
+src/
+  Components/
+    About.js
+    Contact.js
+    Footer.js
+    Header.js
+    Portfolio.js
+    Resume.js
+    Testimonials.js
+  App.css
+  App.js
+  index.css
+  index.js
+  registerServiceWorker.js
+```
+
+## Credits
+##### Original Idea
+* <a href="https://github.com/tbakerx/Tim-Baker-Personal-Website">Tim Baker</a>
+
+##### Inspiration
+* <a href="https://github.com/nordicgiant2/react-nice-resume">Nordic Giant</a>
+* <a href="https://github.com/sonnysangha/Resume-Portfolio-Starter-pack">Sonny Sangha</a>
+
+## License and Copyright Information.
+See [my MIT LICENSE](https://github.com/kimanicharles911//kimanicharles911.github.io/blob/master/LICENSE.txt) for details.
