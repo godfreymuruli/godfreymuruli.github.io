@@ -1,5 +1,4 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
 
 const Header = ({ data }) => {
   if (data) {
@@ -55,7 +54,7 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            {name ? `I'm ${name}.` : null}
           </h1>
           <h3>
             I'm a <span>{city}</span> based <span>{occupation}</span>. {description}.
